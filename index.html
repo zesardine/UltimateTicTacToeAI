@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="tmp.css">
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<center>
+
+    <div class="relative">
+        <canvas id="myCanvas" width="800" height="850">
+            Your browser does not support the canvas element.
+        </canvas>
+
+        <div class="absolute" id="startMenu">
+            <p class="centeredbig">Ultimate Tic-Tac-Toe</p>
+            <p class="centered" onclick="pickTurns()"><button>1 Player</button></p>
+            <p class="centered" onclick="startGame(1)"><button>2 Players</button></p>
+        </div>
+        <div class="absolute" id="turnMenu" hidden="hidden">
+            <p class="centeredbig">Ultimate Tic-Tac-Toe</p>
+            <p class="centered" onclick="setGame(0)"><button>Player 1st</button></p>
+            <p class="centered" onclick="setGame(1)"><button>AI 1st</button></p>
+        </div>
+        <div class="absolute" id="winMenu" hidden="hidden">
+            <p class="centeredbig" id="result">Player 1 Wins!</p>
+            <p class="centered" onclick="menu()"><button>Play again</button></p>
+        </div>
+        <div class="absolute fade" id="loader" hidden>
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
+</center>
+
+<script src="tmp.js"></script>

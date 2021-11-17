@@ -1,0 +1,155 @@
+div.relative {
+    position: relative;
+    width: 800px;
+    height: 850px;
+    border: 3px solid rgb(254, 250, 236);
+}
+
+div.absolute {
+    position: absolute;
+    top: 26%;
+    right: 15%;
+    width: 70%;
+    height: 33%;
+}
+div.absoluteinstructions {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 400px;
+    height: 450px;
+}
+
+p.centeredbig {
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    font-family: 'Bahnschrift';
+    font-size: 60px;
+    color: #0a0806;
+    text-shadow: 2px 2px #f7f5c8;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+p.instructionText {
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #4A597F;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+p.scoretext {
+    text-align: right;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 25px;
+    color: gray;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+p.gamescoretext {
+    text-align: left;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 25px;
+    color: gray;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+p.centered {
+    text-align: center;
+    line-height: 15px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 20px;
+    color: #4A597F;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+button {
+    background-color: #fffacd;
+    border: 3px solid #3c3631;
+    padding: 16px 32px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: #171211;
+
+}
+button:hover {
+    background-color: #ada988;
+}
+button:active {
+    background: #7c8786;
+}
+button:focus {
+    outline:0;
+}
+
+#loader{
+    pointer-events: none;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-top: 23%;
+    margin-left: 3%;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: 12px;
+    border: 12px solid #555;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #555 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

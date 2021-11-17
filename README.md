@@ -4,7 +4,7 @@
 
 [Here's a YouTube video](https://youtu.be/BfmivoVFins) about this project.
 
-This is a _minimax_ AI I coded for the game _Ultimate Tic-Tac-Toe_. There were many fun problems I had to solve, most of which I go over in the YouTube video. Even after figuring them out, the AI isn't completely perfect. However, in it's current form, it usually wins, or we tie. I have only won against it once over the span of many dozens of games, although I'm admittedly not a professional Ultimate Tic-Tac-Toe player. I've also put it up against other AIs and it seems to mostly win or tie. (However, I don't really want to make it practice against other AIs, as those also have their flaws).
+This is a _minimax_ AI I coded for the game _Ultimate Tic-Tac-Toe_. There were many fun problems I had to solve, most of which I go over in the YouTube video. Even after figuring them out, the AI isn't completely perfect. However, in it's current form, it usually wins, or we tie. Personally, I have only won against it once over the span of many dozens of games, although I'm admittedly not a professional Ultimate Tic-Tac-Toe player. I've also put it up against other AIs and it seems to mostly win or tie. (However, I don't really want to make it practice against other AIs, as those also have their flaws).
 
 I will admit, the code is quite old, and there were a lot of problems with the version that I had when I created the video (from the game sometimes crashing when a tie happened to the AI just ignoring the fact that the player was about to win). I have gone over these in the past few days and am happy to say that, to the best of my knowledge, they're all fixed and should work. 
 
